@@ -2,7 +2,11 @@
 import { UilLinkedinAlt, UilGithubAlt, UilFacebookF, UilMessage, UilMouseAlt, UilArrowDown } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 
+import AutoTyping from '../../specialComponents/AutoTyping';
+
 const Home = () => {
+    // let a = document.querySelector(".home__subtitle");
+    // console.log(a.clientHeight)
   return (
     <div>
         <section className="home section" id="home">
@@ -42,7 +46,8 @@ const Home = () => {
 
                     <div className="home__data">
                     <h1 className="home__title">Hi, I'am Hadayetullah</h1>
-                    <h3 className="home__subtitle">Frontend Developer</h3>
+                    <AutoTyping text={"Frontend Developer"} />
+                    {/* <h3 className="home__subtitle">Frontend Developer</h3> */}
                     <p className="home__description">
                         High level experience in web design and development knowledge, producing quality work.
                     </p>
