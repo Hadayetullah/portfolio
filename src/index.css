@@ -1210,11 +1210,39 @@ img {
         margin-left: 3rem;
     }
 
+    .about__top{
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        opacity: 0;
+        transform: translateY(-100%);
+        /* top: -100%; */
+    }
+    .about__top.about-active{
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        opacity: 1;
+        transform: translateY(0);
+        /* top: unset; */
+    }
     .about__container {
         column-gap: 5rem;
     }
-    .about__img {
+    .about__container .about__img {
         width: 350px;
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    .about__container .about__data{
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    .about__container.about-active .about__img {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .about__container.about-active .about__data{
+        opacity: 1;
+        transform: translateX(0);
     }
     /* .about__description {
         text-align: initial;
@@ -1305,9 +1333,41 @@ img {
         bottom: -4.5rem;
     }
 
-    .contact__form {
-        width: 450px;
+    .contact__top{
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        opacity: 0;
+        transform: translateY(-100%);
+        /* top: -100%; */
     }
+    .contact__top.contactme-active{
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        opacity: 1;
+        transform: translateY(0);
+        /* top: unset; */
+    }
+    .contact__container .contact__info {
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    .contact__container.contactme-active .contact__info{
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .contact__container .contact__form {
+        width: 450px;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    .contact__container.contactme-active .contact__form{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    /* .contact__form {
+        width: 450px;
+    } */
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
     }

@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { 
     UilEstate, 
@@ -15,8 +15,9 @@ import {
 } from '@iconscout/react-unicons';
 
 
-const Header = () => {
+const Header = ({theme, activeMenu, scrollHeader, toggleTheme}) => {
 
+    
     const showMenuItems = () =>{
         const navMenu = document.getElementById("nav-menu");
         navMenu.classList.add("show-menu");
@@ -31,20 +32,7 @@ const Header = () => {
         const navMenu = document.getElementById("nav-menu");
         // When we click on each nav__link, we remove the show-menu class
         navMenu.classList.remove("show-menu");
-    }
-
-    // Get the initial theme from local storage or default to light theme
-    function getInitialTheme() {
-        const savedTheme = localStorage.getItem("selected-theme");
-        return savedTheme || "light";
-      }
-
-    // Toggle the theme and update local storage
-    function toggleTheme() {
-        const newTheme = theme === "light" ? "dark" : "light";
-        setTheme(newTheme);
-        localStorage.setItem("selected-theme", newTheme);
-      }    
+    }  
 
 
 
@@ -85,55 +73,7 @@ const Header = () => {
     //   }, []);
 
 
-
-    const [activeMenu, setActiveMenu] = useState("home");
-    const [scrollHeader, setScrollHeader] = useState("");
-    const [theme, setTheme] = useState(getInitialTheme());
-
-    useEffect(() => {
-
-        function scrollHeader() {
-            // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
-            if (this.scrollY >= 80) setScrollHeader("scroll-header");
-            else setScrollHeader("");
-        }
-
-
-        
-        const sections = document.getElementsByTagName("section");
-
-        function handleScroll() {
-            const scrollY = window.pageYOffset;
-
-            for (let i = 0; i < sections.length; i++) {
-                const current = sections[i];
-                const sectionHeight = current.offsetHeight;
-                const sectionTop = current.offsetTop - 50;
-                const sectionId = current.getAttribute("id");
-
-                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                    setActiveMenu(sectionId);
-                }
-            }
-        }
-
-
-
-        // Scroll
-        window.addEventListener("scroll", scrollHeader);
-        window.addEventListener("scroll", handleScroll);
-
-        // Theme
-        document.body.classList.toggle("dark-theme", theme === "dark");
-        localStorage.setItem("selected-theme", theme);
-
-
-        return () => {
-            window.removeEventListener("scroll", scrollHeader);
-            window.removeEventListener("scroll", handleScroll);
-        }
-
-    }, [theme]);
+  
         
       
 

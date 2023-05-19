@@ -2,14 +2,17 @@
 import { UilDownloadAlt } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 
-const About = () => {
+const About = ({aboutAnimation}) => {
+
   return (
     <div>
         <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My Introduction</span>
+            <div className={`about__top ${aboutAnimation === false ? "about-active" : ""}`}>
+                <h2 className="section__title">About Me</h2>
+                <span className="section__subtitle">My Introduction</span>
+            </div>
 
-            <div className="about__container container grid">
+            <div className={`about__container container grid ${aboutAnimation === false ? "about-active" : ""}`}>
                 <img src="/assets/img/about3.png" alt="" className="about__img" />
 
                 <div className="about__data">
@@ -40,7 +43,7 @@ const About = () => {
                     </div>
 
                     <div className="about__buttons">
-                        <Link download="" to="assets/pdf/Hadayetullah-CV.pdf" className="button button--flex">
+                        <Link download="" target='_blank' to="assets/pdf/Hadayetullah-CV.pdf" className="button button--flex">
                             Download CV <UilDownloadAlt className="button__icon" />
                         </Link>
                     </div>
