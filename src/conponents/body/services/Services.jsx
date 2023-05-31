@@ -11,7 +11,7 @@ const Services = () => {
             <div className="container">
             <div className="services__content">
                 <div className="services__title-section">
-                <h3 className="services__title">Frontend Developer</h3>
+                <h3 className="services__title">Frontend Development</h3>
                 <UilArrow className="services__icon" />
                 </div>
             

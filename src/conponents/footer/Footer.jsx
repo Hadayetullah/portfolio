@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="footer__container container grid">
             <div>
                 <h1 className="footer__title">Hadayetullah</h1>
-                <span className="footer__subtitle">Frontend developer</span>
+                <span className="footer__subtitle">Web developer</span>
             </div>
 
             <ul className="footer__links">

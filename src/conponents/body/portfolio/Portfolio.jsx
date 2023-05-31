@@ -30,6 +30,21 @@ const Portfolio = () => {
                 navigation={true}
                 modules={[Pagination, Navigation]}
             >
+
+                {/* <!--==================== PORTFOLIO 1====================--> */}
+                <SwiperSlide className="portfolio__content grid">
+                    <img src="/assets/img/portfolio3.jpg" alt="" className="portfolio__img" />
+                    
+                    <div className="portfolio__data">
+                        <h3 className="portfolio__title">POS Application</h3>
+                        {/* <!-- <p className="portfolio__description"></p> --> */}
+                        <Link target='_blank' to="https://point-of-sell.web.app/" className="button button--flex button--small portfolio__button">
+                        Demo
+                        <UilArrowRight className="button__icon" />
+                        </Link>
+                    </div>
+                </SwiperSlide>
+
                 {/* <!--==================== PORTFOLIO 1====================--> */}
                 <SwiperSlide className="portfolio__content grid">
                     <img src="/assets/img/portfolio1.jpg" alt="" className="portfolio__img" />

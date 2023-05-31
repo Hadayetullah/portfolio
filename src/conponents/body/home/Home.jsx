@@ -46,7 +46,7 @@ const Home = () => {
 
                     <div className="home__data">
                     <h1 className="home__title">Hi, I'am Hadayetullah</h1>
-                    <AutoTyping text={"Frontend Developer"} />
+                    <AutoTyping text={"Web Developer"} />
                     {/* <h3 className="home__subtitle">Frontend Developer</h3> */}
                     <p className="home__description">
                         High level experience in web design and development knowledge, producing quality work.

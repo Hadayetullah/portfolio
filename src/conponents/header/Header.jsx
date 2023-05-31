@@ -89,51 +89,51 @@ const Header = ({theme, activeMenu, scrollHeader, toggleTheme}) => {
                 <NavLink to="/" className="nav__logo">Hadayetullah</NavLink>
 
                 <div className="nav__menu" id="nav-menu">
-                <ul className="nav__list grid">
-                    <li className="nav__item">
-                    <NavLink to="/" className={`nav__link ${activeMenu === 'home' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                        <UilEstate className="nav__icon" /> Home
-                        {/* <i className="uil uil-estate nav__icon"></i> Home */}
-                    </NavLink>
-                    </li>
+                    <ul className="nav__list grid">
+                        <li className="nav__item">
+                        <NavLink to="/" className={`nav__link ${activeMenu === 'home' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
+                            <UilEstate className="nav__icon" /> Home
+                            {/* <i className="uil uil-estate nav__icon"></i> Home */}
+                        </NavLink>
+                        </li>
 
-                    <li className="nav__item">
-                    <NavLink to="/about" className={`nav__link ${activeMenu === 'about' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                        <UilUser className="nav__icon" /> About
-                        {/* <i className="uil uil-user nav__icon"></i> About */}
-                    </NavLink>
-                    </li>
+                        <li className="nav__item">
+                        <NavLink to="/about" className={`nav__link ${activeMenu === 'about' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
+                            <UilUser className="nav__icon" /> About
+                            {/* <i className="uil uil-user nav__icon"></i> About */}
+                        </NavLink>
+                        </li>
 
-                    <li className="nav__item">
-                    <NavLink to="/skills" className={`nav__link ${activeMenu === 'skills' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                        <UilFileAlt className="nav__icon" /> Skills
-                        {/* <i className="uil uil-file-alt nav__icon"></i> Skills */}
-                    </NavLink>
-                    </li>
+                        <li className="nav__item">
+                        <NavLink to="/skills" className={`nav__link ${activeMenu === 'skills' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
+                            <UilFileAlt className="nav__icon" /> Skills
+                            {/* <i className="uil uil-file-alt nav__icon"></i> Skills */}
+                        </NavLink>
+                        </li>
 
-                    <li className="nav__item">
-                    <NavLink to="/services" className={`nav__link ${activeMenu === 'services' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                        <UilBriefcaseAlt className="nav__icon" /> Services
-                        {/* <i className="uil uil-briefcase-alt nav__icon"></i> Services */}
-                    </NavLink>
-                    </li>
+                        <li className="nav__item">
+                        <NavLink to="/services" className={`nav__link ${activeMenu === 'services' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
+                            <UilBriefcaseAlt className="nav__icon" /> Services
+                            {/* <i className="uil uil-briefcase-alt nav__icon"></i> Services */}
+                        </NavLink>
+                        </li>
 
-                    <li className="nav__item">
-                    <NavLink to="/portfolio" className={`nav__link ${activeMenu === 'portfolio' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                        <UilScenery className="nav__icon" /> Portfolio
-                        {/* <i className="uil uil-scenery nav__icon"></i> Portfolio */}
-                    </NavLink>
-                    </li>
+                        <li className="nav__item">
+                        <NavLink to="/portfolio" className={`nav__link ${activeMenu === 'portfolio' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
+                            <UilScenery className="nav__icon" /> Portfolio
+                            {/* <i className="uil uil-scenery nav__icon"></i> Portfolio */}
+                        </NavLink>
+                        </li>
 
-                    <li className="nav__item">
-                    <NavLink to="/contactme" className={`nav__link ${activeMenu === 'contactme' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                        <UilMessage className="nav__icon" /> Contactme
-                        {/* <i className="uil uil-message nav__icon"></i> Contactme */}
-                    </NavLink>
-                    </li>
-                </ul>
-                <UilTimes className="nav__close" id="nav-close" onClick={()=>hideMenuItems()} />
-                {/* <i className="uil uil-times nav__close" id="nav-close"></i> */}
+                        <li className="nav__item">
+                        <NavLink to="/contactme" className={`nav__link ${activeMenu === 'contactme' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
+                            <UilMessage className="nav__icon" /> Contactme
+                            {/* <i className="uil uil-message nav__icon"></i> Contactme */}
+                        </NavLink>
+                        </li>
+                    </ul>
+                    <UilTimes className="nav__close" id="nav-close" onClick={()=>hideMenuItems()} />
+                    {/* <i className="uil uil-times nav__close" id="nav-close"></i> */}
                 </div>
 
                 <div className="nav__btns">

@@ -1340,7 +1340,7 @@ img {
         /* top: -100%; */
     }
     .contact__top.contactme-active{
-        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        /* transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; */
         opacity: 1;
         transform: translateY(0);
         /* top: unset; */
@@ -1351,13 +1351,13 @@ img {
         transform: translateX(-100%);
     }
     .contact__container.contactme-active .contact__info{
-        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        /* transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; */
         opacity: 1;
         transform: translateX(0);
     }
     .contact__container .contact__form {
         width: 450px;
-        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
         opacity: 0;
         transform: translateX(100%);
     }
