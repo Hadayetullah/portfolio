@@ -17,18 +17,19 @@ const About = ({aboutAnimation}) => {
 
                 <div className="about__data">
                     <p className="about__description">
-                        Motivated and skilled front-end developer with more than 2 years of 
-                        professional experience in designing and implementing user-friendly web 
-                        interfaces. Possessing in-depth knowledge of HTML, CSS, and JavaScript, 
-                        with expertise in frameworks such as Bootstrap, React, React Router, and Redux. 
-                        Strong understanding of backend technologies, including Django, Django 
-                        REST Framework, and MySQL.
+                        I am a dedicated and passionate web developer with a strong 
+                        foundation in frontend and backend technologies. Over the course of 
+                        three years of self-learning experience, I have acquired expertise 
+                        in HTML, CSS, JavaScript, Python, and frameworks such as React.js 
+                        and Django. My focus is on creating visually appealing websites with 
+                        seamless user experiences, always keeping user-centric design 
+                        principles at the forefront of my work.
                     </p>
 
                     <div className="about__info">
                     <div>
-                        <span className="about__info-title">02+</span>
-                        <span className="about__info-name">Years <br /> experience</span>
+                        <span className="about__info-title">03+</span>
+                        <span className="about__info-name">Years self-learning <br /> experience</span>
                     </div>
 
                     <div>
@@ -38,7 +39,7 @@ const About = ({aboutAnimation}) => {
 
                     <div>
                         <span className="about__info-title">00<span className="job__experience-animate">+</span></span>
-                        <span className="about__info-name">Years <br /> job experience</span>
+                        <span className="about__info-name">Years job<br /> experience</span>
                     </div>
                     </div>
 
