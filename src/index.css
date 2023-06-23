@@ -168,6 +168,11 @@ img {
     text-align: center;
 }
 
+
+.main {
+    width: 100%;
+    overflow-x: hidden;
+}
 /*==================== LAYOUT ====================*/
 .container {
     max-width: 768px;
@@ -1170,6 +1175,7 @@ img {
     .main,
     .footer__container {
         padding: 0 1rem;
+        overflow-x: hidden;
     }
 
     .nav {
