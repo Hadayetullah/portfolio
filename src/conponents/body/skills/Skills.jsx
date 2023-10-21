@@ -41,7 +41,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">HTML</h3>
-                    <span className="skills__number">65%</span>
+                    <span className="skills__number">75%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__html"></span>
@@ -51,7 +51,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">CSS</h3>
-                    <span className="skills__number">55%</span>
+                    <span className="skills__number">80%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__css"></span>
@@ -61,7 +61,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">JavaScript</h3>
-                    <span className="skills__number">40%</span>
+                    <span className="skills__number">50%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__js"></span>
@@ -71,7 +71,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">React</h3>
-                    <span className="skills__number">50%</span>
+                    <span className="skills__number">55%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__react"></span>
@@ -81,7 +81,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">React Router</h3>
-                    <span className="skills__number">50%</span>
+                    <span className="skills__number">60%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__rr"></span>
@@ -91,7 +91,27 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">Redux</h3>
-                    <span className="skills__number">45%</span>
+                    <span className="skills__number">65%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__redux"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">Responsiveness</h3>
+                    <span className="skills__number">99%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__redux"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">Browser Compatibility</h3>
+                    <span className="skills__number">95%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__redux"></span>
@@ -119,7 +139,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">Python</h3>
-                    <span className="skills__number">30%</span>
+                    <span className="skills__number">50%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__python"></span>
@@ -129,7 +149,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">Django</h3>
-                    <span className="skills__number">35%</span>
+                    <span className="skills__number">45%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__django"></span>
@@ -139,17 +159,27 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">Django Rest Framework</h3>
-                    <span className="skills__number">45%</span>
+                    <span className="skills__number">55%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__drf"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">SQLite</h3>
+                    <span className="skills__number">35%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__mysql"></span>
                   </div>
                 </div>
           
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">MySQL</h3>
-                    <span className="skills__number">30%</span>
+                    <span className="skills__number">25%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__mysql"></span>

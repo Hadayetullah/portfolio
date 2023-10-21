@@ -120,7 +120,7 @@ const Header = ({theme, activeMenu, scrollHeader, toggleTheme}) => {
 
                         <li className="nav__item">
                         <NavLink to="/portfolio" className={`nav__link ${activeMenu === 'portfolio' ? 'active-link' : ''}`} onClick={()=>selectToRemoveMenuItems()}>
-                            <UilScenery className="nav__icon" /> Portfolio
+                            <UilScenery className="nav__icon" /> Projects
                             {/* <i className="uil uil-scenery nav__icon"></i> Portfolio */}
                         </NavLink>
                         </li>

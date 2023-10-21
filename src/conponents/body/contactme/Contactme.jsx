@@ -18,7 +18,7 @@ const Contactme = ({activeMenu}) => {
 
                         <div>
                             <h3 className="contact__title">Call Me</h3>
-                            <span className="contact__subtitle">01846-857388</span>
+                            <span className="contact__subtitle">+880 1846-857388</span>
                         </div>
                     </div>
 
