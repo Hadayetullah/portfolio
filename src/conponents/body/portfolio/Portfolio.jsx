@@ -32,7 +32,7 @@ const Portfolio = () => {
                 modules={[Pagination, Navigation]}
             >
 
-                {/* <!--==================== PORTFOLIO 1====================--> */}
+                {/* <!--==================== PROJECT 1====================--> */}
                 <SwiperSlide className="portfolio__content grid">
                     <img src="/assets/img/portfolio3.jpg" alt="" className="portfolio__img" />
                     
@@ -46,9 +46,23 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <!--==================== PORTFOLIO 1====================--> */}
+                {/* <!--==================== PROJECT 2====================--> */}
                 <SwiperSlide className="portfolio__content grid">
                     <img src="/assets/img/portfolio1.jpg" alt="" className="portfolio__img" />
+                
+                    <div className="portfolio__data">
+                        <h3 className="portfolio__title">Weather App</h3>
+                        {/* <!-- <p className="portfolio__description"></p> --> */}
+                        <Link target='_blank' to="https://weather-dhaka.web.app/" className="button button--flex button--small portfolio__button">
+                            Demo
+                            <UilArrowRight className="button__icon" />
+                        </Link>
+                    </div>
+                </SwiperSlide>
+
+                {/* <!--==================== PROJECT 2====================--> */}
+                <SwiperSlide className="portfolio__content grid">
+                    <img src="/assets/img/portfolio2.jpg" alt="" className="portfolio__img" />
                 
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">Job Portal Website</h3>
@@ -60,9 +74,9 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <!--==================== PORTFOLIO 2====================--> */}
+                {/* <!--==================== PROJECT 3====================--> */}
                 <SwiperSlide className="portfolio__content grid">
-                    <img src="/assets/img/portfolio2.jpg" alt="" className="portfolio__img" />
+                    <img src="/assets/img/portfolio3.jpg" alt="" className="portfolio__img" />
                     
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">Multi-Vendor Website</h3>
@@ -74,9 +88,9 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <!--==================== PORTFOLIO 3====================--> */}
+                {/* <!--==================== PROJECT 4====================--> */}
                 <SwiperSlide className="portfolio__content grid">
-                    <img src="/assets/img/portfolio3.jpg" alt="" className="portfolio__img" />
+                    <img src="/assets/img/portfolio1.jpg" alt="" className="portfolio__img" />
                     
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">School Management System</h3>
@@ -88,9 +102,9 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <!--==================== PORTFOLIO 4====================--> */}
+                {/* <!--==================== PROJECT 4====================--> */}
                 <SwiperSlide className="portfolio__content grid">
-                    <img src="/assets/img/portfolio1.jpg" alt="" className="portfolio__img" />
+                    <img src="/assets/img/portfolio2.jpg" alt="" className="portfolio__img" />
                     
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">Online Shopping System</h3>
@@ -102,9 +116,9 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <!--==================== PORTFOLIO 5====================--> */}
+                {/* <!--==================== PROJECT 6====================--> */}
                 <SwiperSlide className="portfolio__content grid">
-                    <img src="/assets/img/portfolio2.jpg" alt="" className="portfolio__img" />
+                    <img src="/assets/img/portfolio3.jpg" alt="" className="portfolio__img" />
                     
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">Responsive Design</h3>
