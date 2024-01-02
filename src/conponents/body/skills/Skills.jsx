@@ -104,7 +104,7 @@ const Skills = () => {
                     <span className="skills__number">99%</span>
                   </div>
                   <div className="skills__bar">
-                    <span className="skills__percentage skills__redux"></span>
+                    <span className="skills__percentage skills__responsiveness"></span>
                   </div>
                 </div>
 
@@ -114,7 +114,7 @@ const Skills = () => {
                     <span className="skills__number">95%</span>
                   </div>
                   <div className="skills__bar">
-                    <span className="skills__percentage skills__redux"></span>
+                    <span className="skills__percentage skills__browsercompatible"></span>
                   </div>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const Skills = () => {
                     <span className="skills__number">35%</span>
                   </div>
                   <div className="skills__bar">
-                    <span className="skills__percentage skills__mysql"></span>
+                    <span className="skills__percentage skills__sqllite"></span>
                   </div>
                 </div>
           

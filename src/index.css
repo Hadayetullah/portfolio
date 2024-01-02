@@ -595,7 +595,13 @@ img {
     width: 60%;
 }
 .skills__redux {
-    width: 55%;
+    width: 65%;
+}
+.skills__responsiveness {
+    width: 99%;
+}
+.skills__browsercompatible {
+    width: 95%;
 }
 
 
@@ -609,7 +615,10 @@ img {
     width: 45%;
 }
 .skills__mysql {
-    width: 30%;
+    width: 25%;
+}
+.skills__sqllite {
+    width: 35%;
 }
 
 .skills__close .skills__list{
@@ -1217,13 +1226,13 @@ img {
     }
 
     .about__top{
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 0;
         transform: translateY(-100%);
         /* top: -100%; */
     }
     .about__top.about-active{
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 1;
         transform: translateY(0);
         /* top: unset; */
@@ -1233,12 +1242,12 @@ img {
     }
     .about__container .about__img {
         width: 350px;
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 0;
         transform: translateX(-100%);
     }
     .about__container .about__data{
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 0;
         transform: translateX(100%);
     }
@@ -1340,7 +1349,7 @@ img {
     }
 
     .contact__top{
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 0;
         transform: translateY(-100%);
         /* top: -100%; */
@@ -1352,7 +1361,7 @@ img {
         /* top: unset; */
     }
     .contact__container .contact__info {
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 0;
         transform: translateX(-100%);
     }
@@ -1363,7 +1372,7 @@ img {
     }
     .contact__container .contact__form {
         width: 450px;
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         opacity: 0;
         transform: translateX(100%);
     }

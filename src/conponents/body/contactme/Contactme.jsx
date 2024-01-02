@@ -2,16 +2,16 @@ import { UilPhone, UilMessage, UilEnvelope, UilMapMarker } from '@iconscout/reac
 import { Link } from 'react-router-dom';
 
 
-const Contactme = ({activeMenu}) => {
+const Contactme = ({contactAnimation}) => {
   return (
     <div>
         <section className="contact section" id="contactme">
-            <div className={`contact__top ${activeMenu}-active`}>
+            <div className={`contact__top ${contactAnimation === false ? "contactme-active" : ""}`}>
                 <h2 className="section__title">Contact Me</h2>
                 <span className="section__subtitle">Get in touch</span>
             </div>
 
-            <div className={`contact__container container grid ${activeMenu}-active`}>
+            <div className={`contact__container container grid ${contactAnimation === false ? "contactme-active" : ""}`}>
                 <div className='contact__info'>
                     <div className="contact__information">
                         <UilPhone className="contact__icon"  />

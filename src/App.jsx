@@ -39,6 +39,8 @@ function App() {
 
 
   const [aboutAnimation, setAboutAnimation] = useState(true);
+  const [contactAnimation, setContactAnimation] = useState(true);
+  
   // const [activeMenu, setActiveMenu] = useState("home");
   // const [activeMenu, setActiveMenu] = useState("home");
   // const [activeMenu, setActiveMenu] = useState("home");
@@ -88,8 +90,11 @@ function App() {
             if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
                 setActiveMenu(sectionId);
 
+                // console.log(sectionId)
                 if(sectionId === "about"){
                   setAboutAnimation(false);
+                } else if (sectionId === "contactme") {
+                  setContactAnimation(false);
                 }
             }
         }
@@ -132,7 +137,8 @@ function App() {
           <Qualification />
           <Services />
           <Portfolio />
-          <Contactme activeMenu={activeMenu} />
+          {/* <Contactme activeMenu={activeMenu} /> */}
+          <Contactme contactAnimation={contactAnimation} />
         </main>
 
         <Footer />
