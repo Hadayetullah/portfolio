@@ -698,6 +698,10 @@ img {
     margin-bottom: var(--mb-0-75);
 }
 
+.qualification__subtitle a {
+    color: var(--text-color);
+}
+
 .qualification__calender,.qualification__location{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
