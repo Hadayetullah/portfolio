@@ -1,10 +1,12 @@
-
 import { useState } from "react";
-import { UilBracketsCurly, UilServerNetwork, UilAngleDown } from '@iconscout/react-unicons';
+import {
+  UilBracketsCurly,
+  UilServerNetwork,
+  UilAngleDown,
+} from "@iconscout/react-unicons";
 
 const Skills = () => {
-
-  const [openSkill, setOpenSkill] = useState('frontend');
+  const [openSkill, setOpenSkill] = useState("frontend");
 
   const toggleSkills = (e, skillName) => {
     e.preventDefault();
@@ -13,20 +15,26 @@ const Skills = () => {
     } else {
       setOpenSkill(skillName);
     }
-  }
-
+  };
 
   return (
     <div>
-        <section className="skills section" id="skills">
+      <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>
         <span className="section__subtitle">My technical level</span>
 
         <div className="skills__container container grid">
           <div>
             {/* <!--==================== SKILLS 1====================--> */}
-            <div className={`skills__content ${openSkill === 'frontend' ? 'skills__open' : 'skills__close'}`}>
-              <div className="skills__header" onClick={(e)=> toggleSkills(e, 'frontend')}>
+            <div
+              className={`skills__content ${
+                openSkill === "frontend" ? "skills__open" : "skills__close"
+              }`}
+            >
+              <div
+                className="skills__header"
+                onClick={(e) => toggleSkills(e, "frontend")}
+              >
                 <UilBracketsCurly className="skills__icon" />
 
                 <div>
@@ -123,18 +131,25 @@ const Skills = () => {
 
           <div>
             {/* <!--==================== SKILLS 2====================--> */}
-            <div className={`skills__content ${openSkill === 'backend' ? 'skills__open' : 'skills__close'}`}>
-              <div className="skills__header" onClick={(e)=> toggleSkills(e, 'backend')}>
+            <div
+              className={`skills__content ${
+                openSkill === "backend" ? "skills__open" : "skills__close"
+              }`}
+            >
+              <div
+                className="skills__header"
+                onClick={(e) => toggleSkills(e, "backend")}
+              >
                 <UilServerNetwork className="skills__icon" />
-          
+
                 <div>
                   <h1 className="skills__title">Backend developer</h1>
                   <span className="skills__subtitle">More than 1 years</span>
                 </div>
-          
+
                 <UilAngleDown className="skills__arrow" />
               </div>
-          
+
               <div className="skills__list grid">
                 <div className="skills__data">
                   <div className="skills__titles">
@@ -145,7 +160,7 @@ const Skills = () => {
                     <span className="skills__percentage skills__python"></span>
                   </div>
                 </div>
-          
+
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">Django</h3>
@@ -155,14 +170,24 @@ const Skills = () => {
                     <span className="skills__percentage skills__django"></span>
                   </div>
                 </div>
-          
+
                 <div className="skills__data">
                   <div className="skills__titles">
-                    <h3 className="skills__name">Django Rest Framework</h3>
+                    <h3 className="skills__name">Django Rest Framework(DRF)</h3>
                     <span className="skills__number">55%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__drf"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">JSON Web Token(JWT)</h3>
+                    <span className="skills__number">50%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__jwt"></span>
                   </div>
                 </div>
 
@@ -175,7 +200,7 @@ const Skills = () => {
                     <span className="skills__percentage skills__sqllite"></span>
                   </div>
                 </div>
-          
+
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">MySQL</h3>
@@ -191,7 +216,7 @@ const Skills = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
 export default Skills;

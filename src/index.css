@@ -601,16 +601,16 @@ img {
 }
 
 .skills__html{
-    width: 65%;
+    width: 75%;
 }
 .skills__css {
-    width: 55%;
+    width: 80%;
 }
 .skills__js {
-    width: 40%;
+    width: 50%;
 }
 .skills__react {
-    width: 50%;
+    width: 55%;
 }
 .skills__rr {
     width: 60%;
@@ -627,13 +627,16 @@ img {
 
 
 .skills__python {
-    width: 30%;
+    width: 50%;
 }
 .skills__django {
-    width: 35%;
+    width: 45%;
 }
 .skills__drf {
-    width: 45%;
+    width: 55%;
+}
+.skills__jwt {
+    width: 50%;
 }
 .skills__mysql {
     width: 25%;
