@@ -20,7 +20,7 @@ const About = ({ aboutAnimation }) => {
           }`}
         >
           <div className="about__content">
-            <img src="/assets/img/about3.png" alt="" className="about__img1" />
+            <img src="/assets/img/about3.jpg" alt="" className="about__img1" />
 
             <div className="about__info">
               <div>
@@ -60,7 +60,7 @@ const About = ({ aboutAnimation }) => {
             </div>
           </div>
 
-          <img src="/assets/img/about3.png" alt="" className="about__img2" />
+          <img src="/assets/img/about3.jpg" alt="" className="about__img2" />
 
           <div className="about__data">
             <p className="about__description">
