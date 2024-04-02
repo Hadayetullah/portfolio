@@ -601,22 +601,25 @@ img {
 }
 
 .skills__html{
-    width: 75%;
+    width: 95%;
 }
 .skills__css {
-    width: 80%;
+    width: 90%;
 }
 .skills__js {
-    width: 50%;
+    width: 90%;
 }
 .skills__react {
-    width: 55%;
+    width: 85%;
 }
 .skills__rr {
-    width: 60%;
+    width: 95%;
 }
 .skills__redux {
-    width: 65%;
+    width: 85%;
+}
+.skills__next {
+    width: 50%;
 }
 .skills__responsiveness {
     width: 99%;
@@ -627,22 +630,22 @@ img {
 
 
 .skills__python {
-    width: 50%;
+    width: 80%;
 }
 .skills__django {
-    width: 45%;
+    width: 85%;
 }
 .skills__drf {
-    width: 55%;
+    width: 90%;
 }
 .skills__jwt {
-    width: 50%;
+    width: 85%;
 }
 .skills__mysql {
-    width: 25%;
+    width: 50%;
 }
 .skills__sqllite {
-    width: 35%;
+    width: 75%;
 }
 
 .skills__close .skills__list{

@@ -22,10 +22,7 @@ const Services = () => {
 
         <div className="services__container container grid">
           {/* <!--==================== SERVICES 1 ====================--> */}
-          <div
-            className="services__content"
-            onClick={() => handleServiceModal(1)}
-          >
+          <div className="services__content">
             <div>
               <UilArrow className="services__icon" />
               <h3 className="services__title">
@@ -33,7 +30,10 @@ const Services = () => {
               </h3>
             </div>
 
-            <span className="button button--flex button--small button--link services__button">
+            <span
+              className="button button--flex button--small button--link services__button"
+              onClick={() => handleServiceModal(1)}
+            >
               View More
               <UilArrowRight className="button__icon" />
             </span>
@@ -100,10 +100,7 @@ const Services = () => {
           </div>
 
           {/* <!--==================== SERVICES 2 ====================--> */}
-          <div
-            className="services__content"
-            onClick={() => handleServiceModal(2)}
-          >
+          <div className="services__content">
             <div>
               <UilBracketsCurly className="services__icon" />
               <h3 className="services__title">
@@ -111,7 +108,10 @@ const Services = () => {
               </h3>
             </div>
 
-            <span className="button button--flex button--small button--link services__button">
+            <span
+              className="button button--flex button--small button--link services__button"
+              onClick={() => handleServiceModal(2)}
+            >
               View More
               <UilArrowRight className="button__icon" />
             </span>

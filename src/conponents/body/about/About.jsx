@@ -31,7 +31,7 @@ const About = ({ aboutAnimation }) => {
               </div>
 
               <div>
-                <span className="about__info-title">05+</span>
+                <span className="about__info-title">10+</span>
                 <span className="about__info-name">
                   Completed <br /> project
                 </span>
@@ -39,7 +39,7 @@ const About = ({ aboutAnimation }) => {
 
               <div>
                 <span className="about__info-title">
-                  08<span className="job__experience-animate">+</span>
+                  09<span className="job__experience-animate">+</span>
                 </span>
                 <span className="about__info-name">
                   Months job
@@ -94,7 +94,7 @@ const About = ({ aboutAnimation }) => {
               </div>
 
               <div>
-                <span className="about__info-title">05+</span>
+                <span className="about__info-title">10+</span>
                 <span className="about__info-name">
                   Completed <br /> project
                 </span>
@@ -102,7 +102,7 @@ const About = ({ aboutAnimation }) => {
 
               <div>
                 <span className="about__info-title">
-                  04<span className="job__experience-animate">+</span>
+                  09<span className="job__experience-animate">+</span>
                 </span>
                 <span className="about__info-name">
                   Months job
