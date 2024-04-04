@@ -52,7 +52,7 @@ const About = ({ aboutAnimation }) => {
               <Link
                 download=""
                 target="_blank"
-                to="assets/pdf/Hadayetullah-CV.pdf"
+                to="assets/pdf/Hadayetullah-Resume.pdf"
                 className="button button--flex"
               >
                 Download CV <UilDownloadAlt className="button__icon" />
@@ -115,7 +115,7 @@ const About = ({ aboutAnimation }) => {
               <Link
                 download=""
                 target="_blank"
-                to="assets/pdf/Hadayetullah-CV.pdf"
+                to="assets/pdf/Hadayetullah-Resume.pdf"
                 className="button button--flex"
               >
                 Download CV <UilDownloadAlt className="button__icon" />
