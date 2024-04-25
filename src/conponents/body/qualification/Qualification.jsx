@@ -58,7 +58,7 @@ const Qualification = () => {
 
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    Passing Year - 2023
+                    Passing Year - 2021
                   </div>
 
                   <div className="qualification__location">
