@@ -603,7 +603,16 @@ img {
 .skills__html{
     width: 95%;
 }
+.skills__html{
+    width: 90%;
+}
 .skills__css {
+    width: 90%;
+}
+.skills__css3 {
+    width: 85%;
+}
+.skills__tailwind {
     width: 90%;
 }
 .skills__js {

@@ -58,11 +58,41 @@ const Skills = () => {
 
                 <div className="skills__data">
                   <div className="skills__titles">
+                    <h3 className="skills__name">HTML5</h3>
+                    <span className="skills__number">90%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__html5"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
                     <h3 className="skills__name">CSS</h3>
                     <span className="skills__number">90%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">CSS3</h3>
+                    <span className="skills__number">85%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__css3"></span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">Tailwind CSS</h3>
+                    <span className="skills__number">90%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__tailwind"></span>
                   </div>
                 </div>
 
