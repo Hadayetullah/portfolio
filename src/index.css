@@ -630,6 +630,15 @@ img {
 .skills__next {
     width: 50%;
 }
+.skills__axios {
+    width: 95%;
+}
+.skills__fetch {
+    width: 95%;
+}
+.skills__ajax {
+    width: 90%;
+}
 .skills__responsiveness {
     width: 99%;
 }
@@ -655,6 +664,23 @@ img {
 }
 .skills__sqllite {
     width: 75%;
+}
+
+
+.skills__git {
+    width: 80%;
+}
+.skills__github {
+    width: 80%;
+}
+.skills__firebase {
+    width: 30%;
+}
+.skills__docker {
+    width: 00%;
+}
+.skills__typescript {
+    width: 00%;
 }
 
 .skills__close .skills__list{
