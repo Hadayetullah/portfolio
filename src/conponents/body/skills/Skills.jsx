@@ -155,6 +155,16 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
+                      <h3 className="skills__name">TypeScript (Learning)</h3>
+                      <span className="skills__number">00%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__typescript"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
                       <h3 className="skills__name">React Js</h3>
                       <span className="skills__number">85%</span>
                     </div>
@@ -185,7 +195,7 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Next Js</h3>
+                      <h3 className="skills__name">Next Js (Learning)</h3>
                       <span className="skills__number">50%</span>
                     </div>
                     <div className="skills__bar">
@@ -311,16 +321,6 @@ const Skills = () => {
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__docker"></span>
-                    </div>
-                  </div>
-
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">TypeScript(Learning)</h3>
-                      <span className="skills__number">00%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__typescript"></span>
                     </div>
                   </div>
                 </div>
@@ -481,16 +481,6 @@ const Skills = () => {
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__docker"></span>
-                    </div>
-                  </div>
-
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">TypeScript(Learning)</h3>
-                      <span className="skills__number">00%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__typescript"></span>
                     </div>
                   </div>
                 </div>
