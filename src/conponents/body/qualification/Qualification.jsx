@@ -148,7 +148,7 @@ const Qualification = () => {
 
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    November 2023 - Ongoing
+                    November 2023 - June 2024
                   </div>
 
                   <br />
