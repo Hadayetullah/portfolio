@@ -39,10 +39,10 @@ const About = ({ aboutAnimation }) => {
 
               <div>
                 <span className="about__info-title">
-                  11<span className="job__experience-animate">+</span>
+                  1<span className="job__experience-animate">+</span>
                 </span>
                 <span className="about__info-name">
-                  Months job
+                  Year job
                   <br /> experience
                 </span>
               </div>
@@ -52,7 +52,7 @@ const About = ({ aboutAnimation }) => {
               <Link
                 download=""
                 target="_blank"
-                to="assets/pdf/Hadayetullah-Resume.pdf"
+                to="assets/pdf/Hadayetullah-CV.pdf"
                 className="button button--flex"
               >
                 Download CV <UilDownloadAlt className="button__icon" />
@@ -102,10 +102,10 @@ const About = ({ aboutAnimation }) => {
 
               <div>
                 <span className="about__info-title">
-                  11<span className="job__experience-animate">+</span>
+                  1<span className="job__experience-animate">+</span>
                 </span>
                 <span className="about__info-name">
-                  Months job
+                  Year job
                   <br /> experience
                 </span>
               </div>
@@ -115,7 +115,7 @@ const About = ({ aboutAnimation }) => {
               <Link
                 download=""
                 target="_blank"
-                to="assets/pdf/Hadayetullah-Resume.pdf"
+                to="assets/pdf/Hadayetullah-CV.pdf"
                 className="button button--flex"
               >
                 Download CV <UilDownloadAlt className="button__icon" />

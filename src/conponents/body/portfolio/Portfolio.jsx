@@ -88,7 +88,9 @@ const Portfolio = () => {
             />
 
             <div className="portfolio__data">
-              <h3 className="portfolio__title">Job Portal Website</h3>
+              <h3 className="portfolio__title">
+                Medicine Store Management App
+              </h3>
               {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
