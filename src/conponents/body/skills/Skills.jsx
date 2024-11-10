@@ -84,9 +84,7 @@ const Skills = () => {
 
                   <div>
                     <h1 className="skills__title">Frontend developer</h1>
-                    <span className="skills__subtitle">
-                      More than 2.5 years
-                    </span>
+                    <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
                   <UilAngleDown className="skills__arrow" />
@@ -277,7 +275,7 @@ const Skills = () => {
 
                   <div>
                     <h1 className="skills__title">Others</h1>
-                    <span className="skills__subtitle">More than 1 years</span>
+                    <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
                   <UilAngleDown className="skills__arrow" />
@@ -344,7 +342,7 @@ const Skills = () => {
 
                   <div>
                     <h1 className="skills__title">Backend developer</h1>
-                    <span className="skills__subtitle">More than 2 years</span>
+                    <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
                   <UilAngleDown className="skills__arrow" />
@@ -437,7 +435,7 @@ const Skills = () => {
 
                   <div>
                     <h1 className="skills__title">Others</h1>
-                    <span className="skills__subtitle">More than 1 years</span>
+                    <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
                   <UilAngleDown className="skills__arrow" />
