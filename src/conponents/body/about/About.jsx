@@ -26,14 +26,14 @@ const About = ({ aboutAnimation }) => {
               <div>
                 <span className="about__info-title">03+</span>
                 <span className="about__info-name">
-                  Years self-learning <br /> experience
+                  Years <br /> self-learning experience
                 </span>
               </div>
 
               <div>
                 <span className="about__info-title">10+</span>
                 <span className="about__info-name">
-                  Completed <br /> project
+                  Completed <br /> self-practiced projects
                 </span>
               </div>
 
@@ -89,14 +89,14 @@ const About = ({ aboutAnimation }) => {
               <div>
                 <span className="about__info-title">03+</span>
                 <span className="about__info-name">
-                  Years self-learning <br /> experience
+                  Years <br /> self-learning experience
                 </span>
               </div>
 
               <div>
                 <span className="about__info-title">10+</span>
                 <span className="about__info-name">
-                  Completed <br /> project
+                  Completed <br /> self-practiced projects
                 </span>
               </div>
 

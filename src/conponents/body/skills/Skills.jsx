@@ -403,7 +403,9 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Django Channels</h3>
+                      <h3 className="skills__name">
+                        Django Channels(Learning)
+                      </h3>
                       <span className="skills__number">50%</span>
                     </div>
                     <div className="skills__bar">
