@@ -607,16 +607,16 @@ img {
     width: 90%;
 }
 .skills__css {
-    width: 90%;
+    width: 95%;
 }
 .skills__css3 {
     width: 85%;
 }
 .skills__tailwind {
-    width: 90%;
+    width: 95%;
 }
 .skills__js {
-    width: 90%;
+    width: 70%;
 }
 .skills__react {
     width: 85%;
@@ -628,7 +628,10 @@ img {
     width: 85%;
 }
 .skills__next {
-    width: 50%;
+    width: 70%;
+}
+.skills__websocket {
+    width: 60%;
 }
 .skills__axios {
     width: 95%;
@@ -636,14 +639,14 @@ img {
 .skills__fetch {
     width: 95%;
 }
-.skills__ajax {
+/* .skills__ajax {
     width: 90%;
-}
+} */
 .skills__responsiveness {
     width: 99%;
 }
 .skills__browsercompatible {
-    width: 95%;
+    width: 99%;
 }
 
 
@@ -659,7 +662,13 @@ img {
 .skills__jwt {
     width: 85%;
 }
-.skills__mysql {
+.skills__channels {
+    width: 50%;
+}
+/* .skills__mysql {
+    width: 50%;
+} */
+.skills__postgresql {
     width: 50%;
 }
 .skills__sqllite {
@@ -677,10 +686,10 @@ img {
     width: 30%;
 }
 .skills__docker {
-    width: 00%;
+    width: 20%;
 }
 .skills__typescript {
-    width: 00%;
+    width: 70%;
 }
 
 .skills__close .skills__list{

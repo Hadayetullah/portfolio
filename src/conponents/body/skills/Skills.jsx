@@ -114,7 +114,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">CSS</h3>
-                      <span className="skills__number">90%</span>
+                      <span className="skills__number">95%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__css"></span>
@@ -134,7 +134,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Tailwind CSS</h3>
-                      <span className="skills__number">90%</span>
+                      <span className="skills__number">95%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__tailwind"></span>
@@ -144,7 +144,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">JavaScript</h3>
-                      <span className="skills__number">90%</span>
+                      <span className="skills__number">70%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__js"></span>
@@ -154,7 +154,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">TypeScript (Learning)</h3>
-                      <span className="skills__number">00%</span>
+                      <span className="skills__number">70%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__typescript"></span>
@@ -194,10 +194,20 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Next Js (Learning)</h3>
-                      <span className="skills__number">50%</span>
+                      <span className="skills__number">70%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__next"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Web Sockets</h3>
+                      <span className="skills__number">60%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__websocket"></span>
                     </div>
                   </div>
 
@@ -221,7 +231,7 @@ const Skills = () => {
                     </div>
                   </div>
 
-                  <div className="skills__data">
+                  {/* <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Ajax</h3>
                       <span className="skills__number">90%</span>
@@ -229,7 +239,7 @@ const Skills = () => {
                     <div className="skills__bar">
                       <span className="skills__percentage skills__ajax"></span>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="skills__data">
                     <div className="skills__titles">
@@ -244,7 +254,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Browser Compatibility</h3>
-                      <span className="skills__number">95%</span>
+                      <span className="skills__number">99%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__browsercompatible"></span>
@@ -315,7 +325,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Docker(Learning)</h3>
-                      <span className="skills__number">00%</span>
+                      <span className="skills__number">20%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__docker"></span>
@@ -393,6 +403,16 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
+                      <h3 className="skills__name">Django Channels</h3>
+                      <span className="skills__number">50%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__channels"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
                       <h3 className="skills__name">SQLite</h3>
                       <span className="skills__number">75%</span>
                     </div>
@@ -401,13 +421,23 @@ const Skills = () => {
                     </div>
                   </div>
 
-                  <div className="skills__data">
+                  {/* <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">MySQL</h3>
                       <span className="skills__number">50%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__mysql"></span>
+                    </div>
+                  </div> */}
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">PostgreSQL(Learning)</h3>
+                      <span className="skills__number">50%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__postgresql"></span>
                     </div>
                   </div>
                 </div>
@@ -475,7 +505,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Docker(Learning)</h3>
-                      <span className="skills__number">00%</span>
+                      <span className="skills__number">20%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__docker"></span>

@@ -26,5 +26,9 @@ dist-ssr
 .firebase
 /firebase
 firebase
+.firebase/*
+/firebase/*
+firebase/*
 firebase.json
 .firebaserc
+.firebase/hosting*
