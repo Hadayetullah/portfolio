@@ -80,7 +80,7 @@ const Portfolio = () => {
           </SwiperSlide>
 
           {/* <!--==================== PROJECT 3====================--> */}
-          <SwiperSlide className="portfolio__content grid">
+          {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio2.jpg"
               alt=""
@@ -91,7 +91,6 @@ const Portfolio = () => {
               <h3 className="portfolio__title">
                 Medicine Store Management App
               </h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
                 to="https://manage-medicine.web.app/"
@@ -101,7 +100,7 @@ const Portfolio = () => {
                 <UilArrowRight className="button__icon" />
               </Link>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* <!--==================== PROJECT 4====================--> */}
           <SwiperSlide className="portfolio__content grid">
