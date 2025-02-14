@@ -324,7 +324,9 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS EC2 Instance</h3>
+                      <h3 className="skills__name">
+                        AWS EC2 Instance(Learning)
+                      </h3>
                       <span className="skills__number">0%</span>
                     </div>
                     <div className="skills__bar">
@@ -334,7 +336,7 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS RDS</h3>
+                      <h3 className="skills__name">AWS RDS(Learning)</h3>
                       <span className="skills__number">1%</span>
                     </div>
                     <div className="skills__bar">
@@ -344,7 +346,7 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS S3 Bucket</h3>
+                      <h3 className="skills__name">AWS S3 Bucket(Learning)</h3>
                       <span className="skills__number">1%</span>
                     </div>
                     <div className="skills__bar">
@@ -526,7 +528,9 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS EC2 Instance</h3>
+                      <h3 className="skills__name">
+                        AWS EC2 Instance(Learning)
+                      </h3>
                       <span className="skills__number">0%</span>
                     </div>
                     <div className="skills__bar">
@@ -536,7 +540,7 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS RDS</h3>
+                      <h3 className="skills__name">AWS RDS(Learning)</h3>
                       <span className="skills__number">1%</span>
                     </div>
                     <div className="skills__bar">
@@ -546,7 +550,7 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS S3 Bucket</h3>
+                      <h3 className="skills__name">AWS S3 Bucket(Learning)</h3>
                       <span className="skills__number">1%</span>
                     </div>
                     <div className="skills__bar">
