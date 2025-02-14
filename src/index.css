@@ -682,8 +682,14 @@ img {
 .skills__github {
     width: 80%;
 }
-.skills__firebase {
-    width: 30%;
+.skills__ec2 {
+    width: 0%;
+}
+.skills__rds {
+    width: 1%;
+}
+.skills__s3 {
+    width: 1%;
 }
 .skills__docker {
     width: 20%;

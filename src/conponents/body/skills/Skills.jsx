@@ -314,21 +314,41 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Firebase</h3>
-                      <span className="skills__number">30%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__firebase"></span>
-                    </div>
-                  </div>
-
-                  <div className="skills__data">
-                    <div className="skills__titles">
                       <h3 className="skills__name">Docker(Learning)</h3>
                       <span className="skills__number">20%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__docker"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">AWS EC2 Instance</h3>
+                      <span className="skills__number">0%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__ec2"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">AWS RDS</h3>
+                      <span className="skills__number">1%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__rds"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">AWS S3 Bucket</h3>
+                      <span className="skills__number">1%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__s3"></span>
                     </div>
                   </div>
                 </div>
