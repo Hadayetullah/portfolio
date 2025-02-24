@@ -38,6 +38,28 @@ const Portfolio = () => {
           {/* <!--==================== PROJECT 1====================--> */}
           <SwiperSlide className="portfolio__content grid">
             <img
+              src="/assets/img/portfolio2.jpg"
+              alt=""
+              className="portfolio__img"
+            />
+
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">Medicine Management</h3>
+              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <Link
+                target="_blank"
+                to="http://13.51.238.172/"
+                className="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <UilArrowRight className="button__icon" />
+              </Link>
+            </div>
+          </SwiperSlide>
+
+          {/* <!--==================== PROJECT 1====================--> */}
+          <SwiperSlide className="portfolio__content grid">
+            <img
               src="/assets/img/portfolio3.jpg"
               alt=""
               className="portfolio__img"

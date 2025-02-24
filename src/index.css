@@ -683,13 +683,13 @@ img {
     width: 80%;
 }
 .skills__ec2 {
-    width: 5%;
+    width: 25%;
 }
 .skills__rds {
     width: 5%;
 }
 .skills__s3 {
-    width: 10%;
+    width: 25%;
 }
 .skills__docker {
     width: 20%;
