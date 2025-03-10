@@ -36,7 +36,7 @@ const Portfolio = () => {
           modules={[Pagination, Navigation]}
         >
           {/* <!--==================== PROJECT 1====================--> */}
-          <SwiperSlide className="portfolio__content grid">
+          {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio2.jpg"
               alt=""
@@ -45,7 +45,6 @@ const Portfolio = () => {
 
             <div className="portfolio__data">
               <h3 className="portfolio__title">Medicine Management</h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
                 to="http://13.51.238.172/"
@@ -55,7 +54,7 @@ const Portfolio = () => {
                 <UilArrowRight className="button__icon" />
               </Link>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* <!--==================== PROJECT 1====================--> */}
           <SwiperSlide className="portfolio__content grid">
