@@ -680,7 +680,10 @@ img {
     width: 80%;
 }
 .skills__github {
-    width: 80%;
+    width: 50%;
+}
+.skills__pipeline {
+    width: 0%;
 }
 .skills__ec2 {
     width: 25%;

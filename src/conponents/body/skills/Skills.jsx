@@ -305,10 +305,20 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">GitHub</h3>
-                      <span className="skills__number">80%</span>
+                      <span className="skills__number">50%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__github"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">CI/CD Pipeline</h3>
+                      <span className="skills__number">0%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__pipeline"></span>
                     </div>
                   </div>
 
@@ -509,10 +519,20 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">GitHub</h3>
-                      <span className="skills__number">80%</span>
+                      <span className="skills__number">50%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__github"></span>
+                    </div>
+                  </div>
+
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">CI/CD Pipeline</h3>
+                      <span className="skills__number">0%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__pipeline"></span>
                     </div>
                   </div>
 

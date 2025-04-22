@@ -141,7 +141,10 @@ const Qualification = () => {
                   <br />
 
                   <span className="qualification__subtitle">
-                    <a target="_blank" href="https://kaizentech.agency/">
+                    {/* <a target="_blank" href="https://kaizentech.agency/">
+                      KaizenTech Business Development Agency
+                    </a> */}
+                    <a target="_blank" href="#">
                       KaizenTech Business Development Agency
                     </a>
                   </span>
