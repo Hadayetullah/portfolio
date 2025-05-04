@@ -59,6 +59,27 @@ const Portfolio = () => {
           {/* <!--==================== PROJECT 1====================--> */}
           <SwiperSlide className="portfolio__content grid">
             <img
+              src="/assets/img/portfolio2.jpg"
+              alt=""
+              className="portfolio__img"
+            />
+
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">Multi-Vendor Website</h3>
+              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <Link
+                target="_blank"
+                to="https://multi-vendor-application-d0c64.web.app/"
+                className="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <UilArrowRight className="button__icon" />
+              </Link>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="portfolio__content grid">
+            <img
               src="/assets/img/portfolio3.jpg"
               alt=""
               className="portfolio__img"
@@ -170,29 +191,10 @@ const Portfolio = () => {
           </SwiperSlide>
 
           {/* <!--==================== PROJECT 6====================--> */}
-          <SwiperSlide className="portfolio__content grid">
-            <img
-              src="/assets/img/portfolio2.jpg"
-              alt=""
-              className="portfolio__img"
-            />
-
-            <div className="portfolio__data">
-              <h3 className="portfolio__title">Multi-Vendor Website</h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
-              <Link
-                target="_blank"
-                to="https://multi-vendor-application-d0c64.web.app/"
-                className="button button--flex button--small portfolio__button"
-              >
-                Demo
-                <UilArrowRight className="button__icon" />
-              </Link>
-            </div>
-          </SwiperSlide>
+          
 
           {/* <!--==================== PROJECT 7====================--> */}
-          <SwiperSlide className="portfolio__content grid">
+          {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio3.jpg"
               alt=""
@@ -201,7 +203,7 @@ const Portfolio = () => {
 
             <div className="portfolio__data">
               <h3 className="portfolio__title">School Management System</h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <p className="portfolio__description"></p>
               <Link
                 target="_blank"
                 to="https://hadayetullah.pythonanywhere.com/account/home/"
@@ -211,10 +213,10 @@ const Portfolio = () => {
                 <UilArrowRight className="button__icon" />
               </Link>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* <!--==================== PROJECT 8====================--> */}
-          <SwiperSlide className="portfolio__content grid">
+          {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio1.jpg"
               alt=""
@@ -223,7 +225,7 @@ const Portfolio = () => {
 
             <div className="portfolio__data">
               <h3 className="portfolio__title">Online Shopping System</h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <p className="portfolio__description"></p>
               <Link
                 target="_blank"
                 to="https://hadayetullah.github.io/JavaScript-Online-Shopping-System/"
@@ -233,10 +235,10 @@ const Portfolio = () => {
                 <UilArrowRight className="button__icon" />
               </Link>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* <!--==================== PROJECT 9====================--> */}
-          <SwiperSlide className="portfolio__content grid">
+          {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio2.jpg"
               alt=""
@@ -245,7 +247,7 @@ const Portfolio = () => {
 
             <div className="portfolio__data">
               <h3 className="portfolio__title">A Custom Design</h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <p className="portfolio__description"></p>
               <Link
                 target="_blank"
                 to="https://hadayetullah.github.io/Just-a-design-using-html-css/"
@@ -255,7 +257,7 @@ const Portfolio = () => {
                 <UilArrowRight className="button__icon" />
               </Link>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* <!-- Add arrows --> */}
           {/* <div className="swiper-button-next">
