@@ -1,4 +1,3 @@
-import { UilDownloadAlt } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
 
 const About = ({ aboutAnimation }) => {
@@ -24,14 +23,14 @@ const About = ({ aboutAnimation }) => {
 
             <div className="about__info">
               <div>
-                <span className="about__info-title">03+</span>
+                <span className="about__info-title">07+</span>
                 <span className="about__info-name">
                   Years <br /> self-learning experience
                 </span>
               </div>
 
               <div>
-                <span className="about__info-title">10+</span>
+                <span className="about__info-title">25+</span>
                 <span className="about__info-name">
                   Completed <br /> self-practiced projects
                 </span>
@@ -55,7 +54,7 @@ const About = ({ aboutAnimation }) => {
                 to="assets/pdf/Hadayetullah-CV.pdf"
                 className="button button--flex"
               >
-                Download CV <UilDownloadAlt className="button__icon" />
+                Download CV <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="button__icon"><path d="M8.29,13.29a1,1,0,0,0,0,1.42l3,3a1,1,0,0,0,1.42,0l3-3a1,1,0,0,0-1.42-1.42L13,14.59V3a1,1,0,0,0-2,0V14.59l-1.29-1.3A1,1,0,0,0,8.29,13.29ZM18,9H16a1,1,0,0,0,0,2h2a1,1,0,0,1,1,1v7a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H8A1,1,0,0,0,8,9H6a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V12A3,3,0,0,0,18,9Z"></path></svg>
               </Link>
             </div>
           </div>
@@ -64,37 +63,28 @@ const About = ({ aboutAnimation }) => {
 
           <div className="about__data">
             <p className="about__description">
-              I am a dedicated and passionate web developer with a strong
-              foundation in frontend and backend technologies. Over the course
-              of more than three years of self-learning and professional
-              experience, I have acquired expertise in HTML, CSS, JavaScript,
-              Python, and libraries/frameworks such as React.js, React Router,
-              Redux, Django, and Django Rest Framework(DRF). While my focus has
-              primarily been on creating visually appealing websites with
-              seamless user experiences, I am also deeply intrigued by the
-              possibilities of artificial intelligence (AI). I am eager to
-              explore how AI can be integrated into web applications to enhance
-              functionality, improve user interactions, and drive innovation.
-              Additionally, I aspire to work on larger, more robust web
-              applications such as multi-vendor websites, point-of-sale systems,
-              customer relationship management tools, human resource management
-              systems, and other unique applications that present complex
-              challenges and opportunities for innovation. I am excited about
-              the prospect of leveraging my skills and creativity to contribute
-              to the development of transformative digital solutions that blend
-              AI with cutting-edge web technologies.
+            I am a dedicated and passionate web developer with a strong foundation in both frontend and 
+            backend technologies. My primary focus has been on frontend development, where I craft 
+            responsive, accessible, and interactive user interfaces. With over seven years of self-learning 
+            and more than one year of professional experience, I have developed a deep understanding of modern 
+            web development practices. My technical expertise includes HTML, CSS, JavaScript, TypeScript, 
+            WebSockets, and Python, along with frameworks and libraries such as Tailwind CSS, React, 
+            Next.js, Redux, Django, Django REST Framework (DRF), JSON Web Token (JWT), and Django Channels. 
+            I specialize in building performant frontend applications, integrating backend APIs, implementing 
+            real-time features, and ensuring smooth user experiences. I’m committed to continuous learning and 
+            writing clean, maintainable code that brings ideas to life on the web.
             </p>
 
             <div className="about__info">
               <div>
-                <span className="about__info-title">03+</span>
+                <span className="about__info-title">07+</span>
                 <span className="about__info-name">
                   Years <br /> self-learning experience
                 </span>
               </div>
 
               <div>
-                <span className="about__info-title">10+</span>
+                <span className="about__info-title">25+</span>
                 <span className="about__info-name">
                   Completed <br /> self-practiced projects
                 </span>
@@ -118,7 +108,7 @@ const About = ({ aboutAnimation }) => {
                 to="assets/pdf/Hadayetullah-CV.pdf"
                 className="button button--flex"
               >
-                Download CV <UilDownloadAlt className="button__icon" />
+                Download CV <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="button__icon"><path d="M8.29,13.29a1,1,0,0,0,0,1.42l3,3a1,1,0,0,0,1.42,0l3-3a1,1,0,0,0-1.42-1.42L13,14.59V3a1,1,0,0,0-2,0V14.59l-1.29-1.3A1,1,0,0,0,8.29,13.29ZM18,9H16a1,1,0,0,0,0,2h2a1,1,0,0,1,1,1v7a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H8A1,1,0,0,0,8,9H6a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V12A3,3,0,0,0,18,9Z"></path></svg>
               </Link>
             </div>
           </div>
