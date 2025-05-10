@@ -601,25 +601,25 @@ img {
 }
 
 .skills__html{
-    width: 95%;
+    width: 99%;
 }
 .skills__html{
-    width: 90%;
+    width: 99%;
 }
 .skills__css {
-    width: 95%;
+    width: 99%;
 }
 .skills__css3 {
-    width: 85%;
+    width: 99%;
 }
 .skills__tailwind {
-    width: 95%;
+    width: 99%;
 }
 .skills__js {
     width: 70%;
 }
 .skills__react {
-    width: 85%;
+    width: 90%;
 }
 .skills__rr {
     width: 95%;
@@ -628,7 +628,7 @@ img {
     width: 85%;
 }
 .skills__next {
-    width: 70%;
+    width: 90%;
 }
 .skills__websocket {
     width: 60%;
@@ -698,7 +698,7 @@ img {
     width: 20%;
 }
 .skills__typescript {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__close .skills__list{

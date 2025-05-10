@@ -80,21 +80,21 @@ const Skills = () => {
                   className="skills__header"
                   onClick={(e) => toggleSkills("frontend", "others2-open")}
                 >
-                  <UilBracketsCurly className="skills__icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__icon"><path d="M6 6a2 2 0 0 1 2-2 1 1 0 0 0 0-2 4 4 0 0 0-4 4v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 4 4 1 1 0 0 0 0-2 2 2 0 0 1-2-2v-3a4 4 0 0 0-1.38-3A4 4 0 0 0 6 9Zm16 5a2 2 0 0 1-2-2V6a4 4 0 0 0-4-4 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 1.38 3A4 4 0 0 0 18 15v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 4 4 0 0 0 4-4v-3a2 2 0 0 1 2-2 1 1 0 0 0 0-2Z"></path></svg>
 
                   <div>
                     <h1 className="skills__title">Frontend developer</h1>
                     <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
-                  <UilAngleDown className="skills__arrow" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__arrow"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
                 </div>
 
                 <div className="skills__list grid">
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">HTML</h3>
-                      <span className="skills__number">95%</span>
+                      <span className="skills__number">99%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__html"></span>
@@ -104,7 +104,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">HTML5</h3>
-                      <span className="skills__number">90%</span>
+                      <span className="skills__number">99%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__html5"></span>
@@ -114,7 +114,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">CSS</h3>
-                      <span className="skills__number">95%</span>
+                      <span className="skills__number">99%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__css"></span>
@@ -124,7 +124,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">CSS3</h3>
-                      <span className="skills__number">85%</span>
+                      <span className="skills__number">99%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__css3"></span>
@@ -134,7 +134,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">Tailwind CSS</h3>
-                      <span className="skills__number">95%</span>
+                      <span className="skills__number">99%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__tailwind"></span>
@@ -153,8 +153,8 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">TypeScript (Learning)</h3>
-                      <span className="skills__number">70%</span>
+                      <h3 className="skills__name">TypeScript</h3>
+                      <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__typescript"></span>
@@ -164,7 +164,7 @@ const Skills = () => {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">React Js</h3>
-                      <span className="skills__number">85%</span>
+                      <span className="skills__number">90%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__react"></span>
@@ -193,8 +193,8 @@ const Skills = () => {
 
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Next Js (Learning)</h3>
-                      <span className="skills__number">70%</span>
+                      <h3 className="skills__name">Next Js</h3>
+                      <span className="skills__number">90%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__next"></span>
@@ -281,14 +281,14 @@ const Skills = () => {
                   className="skills__header"
                   onClick={(e) => toggleSkills("others1", "others1-open")}
                 >
-                  <UilChannel className="skills__icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__icon"><path d="M20 16a3 3 0 0 0-1.73.56l-2.45-1.45A3.74 3.74 0 0 0 16 14a4 4 0 0 0-3-3.86V7.82a3 3 0 1 0-2 0v2.32A4 4 0 0 0 8 14a3.74 3.74 0 0 0 .18 1.11l-2.45 1.45A3 3 0 0 0 4 16a3 3 0 1 0 3 3 3 3 0 0 0-.12-.8l2.3-1.37a4 4 0 0 0 5.64 0l2.3 1.37A3 3 0 1 0 20 16ZM4 20a1 1 0 1 1 1-1 1 1 0 0 1-1 1Zm8-16a1 1 0 1 1-1 1 1 1 0 0 1 1-1Zm0 12a2 2 0 1 1 2-2 2 2 0 0 1-2 2Zm8 4a1 1 0 1 1 1-1 1 1 0 0 1-1 1Z"></path></svg>
 
                   <div>
                     <h1 className="skills__title">Others</h1>
                     <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
-                  <UilAngleDown className="skills__arrow" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__arrow"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
                 </div>
 
                 <div className="skills__list grid">
@@ -380,14 +380,14 @@ const Skills = () => {
                   className="skills__header"
                   onClick={(e) => toggleSkills("backend", "others1-open")}
                 >
-                  <UilServerNetwork className="skills__icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__icon"><path d="M8,6A1,1,0,1,0,7,5,1,1,0,0,0,8,6ZM21,19H14.82A3,3,0,0,0,13,17.18V15h4a3,3,0,0,0,3-3V10a3,3,0,0,0-.78-2A3,3,0,0,0,20,6V4a3,3,0,0,0-3-3H7A3,3,0,0,0,4,4V6a3,3,0,0,0,.78,2A3,3,0,0,0,4,10v2a3,3,0,0,0,3,3h4v2.18A3,3,0,0,0,9.18,19H3a1,1,0,0,0,0,2H9.18a3,3,0,0,0,5.64,0H21a1,1,0,0,0,0-2ZM6,4A1,1,0,0,1,7,3H17a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H7A1,1,0,0,1,6,6Zm1,9a1,1,0,0,1-1-1V10A1,1,0,0,1,7,9H17a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1Zm5,8a1,1,0,1,1,1-1A1,1,0,0,1,12,21ZM8,10a1,1,0,1,0,1,1A1,1,0,0,0,8,10Z"></path></svg>
 
                   <div>
                     <h1 className="skills__title">Backend developer</h1>
                     <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
-                  <UilAngleDown className="skills__arrow" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__arrow"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
                 </div>
 
                 <div className="skills__list grid">
@@ -495,14 +495,14 @@ const Skills = () => {
                   className="skills__header"
                   onClick={(e) => toggleSkills("others2", "others2-open")}
                 >
-                  <UilChannel className="skills__icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__icon"><path d="M20 16a3 3 0 0 0-1.73.56l-2.45-1.45A3.74 3.74 0 0 0 16 14a4 4 0 0 0-3-3.86V7.82a3 3 0 1 0-2 0v2.32A4 4 0 0 0 8 14a3.74 3.74 0 0 0 .18 1.11l-2.45 1.45A3 3 0 0 0 4 16a3 3 0 1 0 3 3 3 3 0 0 0-.12-.8l2.3-1.37a4 4 0 0 0 5.64 0l2.3 1.37A3 3 0 1 0 20 16ZM4 20a1 1 0 1 1 1-1 1 1 0 0 1-1 1Zm8-16a1 1 0 1 1-1 1 1 1 0 0 1 1-1Zm0 12a2 2 0 1 1 2-2 2 2 0 0 1-2 2Zm8 4a1 1 0 1 1 1-1 1 1 0 0 1-1 1Z"></path></svg>
 
                   <div>
                     <h1 className="skills__title">Others</h1>
                     <span className="skills__subtitle">More than 1 year</span>
                   </div>
 
-                  <UilAngleDown className="skills__arrow" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="skills__arrow"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
                 </div>
 
                 <div className="skills__list grid">
