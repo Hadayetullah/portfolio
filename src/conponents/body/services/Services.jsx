@@ -14,6 +14,14 @@ const Services = () => {
     setServiceModal(e);
   };
 
+  const arrowSvg = (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="button__icon"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path></svg>
+  )
+
+  const cancelIconSvg = (
+    <svg xmlns="http://www.w3.org/2000/svg" onClick={() => handleServiceModal(0)} width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="services__modal-close"><path d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"></path></svg>
+  )
+
   return (
     <>
       <section className="services section" id="services">
@@ -24,7 +32,7 @@ const Services = () => {
           {/* <!--==================== SERVICES 1 ====================--> */}
           <div className="services__content">
             <div>
-              <UilArrow className="services__icon" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="services__icon"><path d="M9.71,6.29a1,1,0,0,0-1.42,0l-5,5a1,1,0,0,0,0,1.42l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L5.41,12l4.3-4.29A1,1,0,0,0,9.71,6.29Zm11,5-5-5a1,1,0,0,0-1.42,1.42L18.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5A1,1,0,0,0,20.71,11.29Z"></path></svg>
               <h3 className="services__title">
                 Frontend <br /> Development
               </h3>
@@ -35,7 +43,7 @@ const Services = () => {
               onClick={() => handleServiceModal(1)}
             >
               View More
-              <UilArrowRight className="button__icon" />
+              {arrowSvg}
             </span>
           </div>
 
@@ -50,10 +58,7 @@ const Services = () => {
                 Frontend <br /> Development
               </h4>
 
-              <UilTimes
-                className="services__modal-close"
-                onClick={() => handleServiceModal(0)}
-              />
+              {cancelIconSvg}
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -102,7 +107,7 @@ const Services = () => {
           {/* <!--==================== SERVICES 2 ====================--> */}
           <div className="services__content">
             <div>
-              <UilBracketsCurly className="services__icon" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="services__icon"><path d="M6 6a2 2 0 0 1 2-2 1 1 0 0 0 0-2 4 4 0 0 0-4 4v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 4 4 1 1 0 0 0 0-2 2 2 0 0 1-2-2v-3a4 4 0 0 0-1.38-3A4 4 0 0 0 6 9Zm16 5a2 2 0 0 1-2-2V6a4 4 0 0 0-4-4 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 1.38 3A4 4 0 0 0 18 15v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 4 4 0 0 0 4-4v-3a2 2 0 0 1 2-2 1 1 0 0 0 0-2Z"></path></svg>
               <h3 className="services__title">
                 Backend <br /> Development
               </h3>
@@ -113,7 +118,7 @@ const Services = () => {
               onClick={() => handleServiceModal(2)}
             >
               View More
-              <UilArrowRight className="button__icon" />
+              {arrowSvg}
             </span>
           </div>
 
@@ -127,10 +132,7 @@ const Services = () => {
               <h4 className="services__modal-title">
                 Backend <br /> Development
               </h4>
-              <UilTimes
-                className="services__modal-close"
-                onClick={() => handleServiceModal(0)}
-              />
+              {cancelIconSvg}
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
