@@ -1,10 +1,3 @@
-import {
-  UilArrow,
-  UilCheckCircle,
-  UilArrowRight,
-  UilTimes,
-  UilBracketsCurly,
-} from "@iconscout/react-unicons";
 import { useState } from "react";
 
 const Services = () => {
@@ -20,6 +13,10 @@ const Services = () => {
 
   const cancelIconSvg = (
     <svg xmlns="http://www.w3.org/2000/svg" onClick={() => handleServiceModal(0)} width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="services__modal-close"><path d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"></path></svg>
+  )
+
+  const circleIconSvg = (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="services__modal-icon"><path d="M14.72,8.79l-4.29,4.3L8.78,11.44a1,1,0,1,0-1.41,1.41l2.35,2.36a1,1,0,0,0,.71.29,1,1,0,0,0,.7-.29l5-5a1,1,0,0,0,0-1.42A1,1,0,0,0,14.72,8.79ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"></path></svg>
   )
 
   return (
@@ -62,7 +59,9 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Develop dynamic web interfaces using HTML, CSS, JavaScript,
                     React.js, React Router, and Redux, tailored to the specific
@@ -71,7 +70,9 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Ensure that website or application design is responsive,
                     mobile-friendly and compatible with different devices and
@@ -80,12 +81,16 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>Write clean, well-organized and efficient code.</p>
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Integrate with backend APIs using asynchronous JavaScript
                     techniques using Fetch API / Axios to fetch and manipulate
@@ -94,7 +99,9 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Ensure that website or application functionality and design
                     align with project goals.
@@ -136,7 +143,9 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Develop custom web applications tailored to the specific
                     needs and requirements.
@@ -144,7 +153,9 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Implement secure user authentication and authorization using
                     JWT to ensure that only authorized users can access the
@@ -153,7 +164,9 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Build RESTful APIs using Django Rest Framework to expose
                     functionalities and data to external systems or frontend
@@ -162,7 +175,9 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Design and integrate databases using Django's ORM
                     (Object-Relational Mapping) to efficiently store and
@@ -171,7 +186,8 @@ const Services = () => {
                 </li>
 
                 {/* <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                  circleIconSvg}
                   <p>
                     Implement additional security measures such as CSRF
                     (Cross-Site Request Forgery) protection, HTTPS usage, and
@@ -181,7 +197,9 @@ const Services = () => {
                 </li> */}
 
                 <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                    circleIconSvg
+                  }
                   <p>
                     Optimize the application for scalability and performance by
                     implementing caching mechanisms, database indexing, and
@@ -190,7 +208,8 @@ const Services = () => {
                 </li>
 
                 {/* <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                  circleIconSvg}
                   <p>
                     Deploy the web application to a production environment and
                     provide guidance on selecting a suitable hosting platform,
@@ -199,7 +218,8 @@ const Services = () => {
                 </li> */}
 
                 {/* <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                  circleIconSvg}
                   <p>
                     Offer ongoing maintenance and support services to ensure
                     that the application remains operational, secure, and
@@ -209,7 +229,8 @@ const Services = () => {
                 </li> */}
 
                 {/* <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                  circleIconSvg}
                   <p>
                     Provide comprehensive documentation for the web
                     application's APIs and functionalities, as well as training
@@ -219,7 +240,8 @@ const Services = () => {
                 </li> */}
 
                 {/* <li className="services__modal-service">
-                  <UilCheckCircle className="services__modal-icon" />
+                  {
+                  circleIconSvg}
                   <p>
                     Offer consultation and advice on best practices, technology
                     choices, and architectural decisions to help the customer

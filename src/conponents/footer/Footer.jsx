@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { UilFacebookF, UilLinkedinAlt, UilGithubAlt, UilArrowUp} from '@iconscout/react-unicons';
-
 
 const Footer = () => {
 

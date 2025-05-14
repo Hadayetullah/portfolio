@@ -1,4 +1,3 @@
-import { UilGraduationCap, UilBriefcaseAlt } from "@iconscout/react-unicons";
 import { useState } from "react";
 
 const Qualification = () => {

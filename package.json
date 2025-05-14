@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@iconscout/react-unicons": "^2.2.4",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.1",
     "react": "^19.1.0",

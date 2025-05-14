@@ -1,8 +1,3 @@
-import {
-  UilArrowRight,
-  UilAngleLeftB,
-  UilAngleRightB,
-} from "@iconscout/react-unicons";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

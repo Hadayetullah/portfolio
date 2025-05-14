@@ -1,10 +1,4 @@
 import { useEffect, useState } from "react";
-import {
-  UilBracketsCurly,
-  UilServerNetwork,
-  UilAngleDown,
-  UilChannel,
-} from "@iconscout/react-unicons";
 
 function debounce(func, wait) {
   let timeout;

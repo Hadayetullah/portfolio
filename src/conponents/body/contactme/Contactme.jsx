@@ -1,6 +1,4 @@
-import { UilPhone, UilMessage, UilEnvelope, UilMapMarker } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
-
 
 const Contactme = ({contactAnimation}) => {
   return (
