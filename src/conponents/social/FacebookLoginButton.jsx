@@ -9,7 +9,7 @@ const FacebookLoginButton = () => {
         appId: import.meta.env.VITE_FACEBOOK_APP_ID,
         cookie: true,
         xfbml: true,
-        version: 'v22.0',
+        version: 'v20.0',
       });
     };
 

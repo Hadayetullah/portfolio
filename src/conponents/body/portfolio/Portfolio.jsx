@@ -64,7 +64,7 @@ const Portfolio = () => {
               {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
-                to="https://multi-vendor-application-d0c64.web.app/"
+                to="https://service-point-rust.vercel.app/"
                 className="button button--flex button--small portfolio__button"
               >
                 Demo
@@ -85,7 +85,7 @@ const Portfolio = () => {
               {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
-                to="https://point-of-sell.web.app/"
+                to="https://simple-pos-application.vercel.app/"
                 className="button button--flex button--small portfolio__button"
               >
                 Demo
@@ -107,7 +107,7 @@ const Portfolio = () => {
               {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
-                to="https://weather-dhaka.web.app/"
+                to="https://daily-weather-blond-five.vercel.app/"
                 className="button button--flex button--small portfolio__button"
               >
                 Demo
@@ -117,6 +117,27 @@ const Portfolio = () => {
           </SwiperSlide>
 
           {/* <!--==================== PROJECT 3====================--> */}
+          <SwiperSlide className="portfolio__content grid">
+            <img
+              src="/assets/img/portfolio1.jpg"
+              alt=""
+              className="portfolio__img"
+            />
+
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">
+                Simple Website
+              </h3>
+              <Link
+                target="_blank"
+                to="https://cybercraft-bangladesh.vercel.app/"
+                className="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="button__icon"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path></svg>
+              </Link>
+            </div>
+          </SwiperSlide>
           {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio2.jpg"
@@ -142,17 +163,18 @@ const Portfolio = () => {
           {/* <!--==================== PROJECT 4====================--> */}
           <SwiperSlide className="portfolio__content grid">
             <img
-              src="/assets/img/portfolio3.jpg"
+              src="/assets/img/portfolio1.jpg"
               alt=""
               className="portfolio__img"
             />
 
             <div className="portfolio__data">
-              <h3 className="portfolio__title">Job Portal Website</h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <h3 className="portfolio__title">
+                Task Management App
+              </h3>
               <Link
                 target="_blank"
-                to="https://jobportal-webapp.web.app/"
+                to="https://seo-page1-practical-test.vercel.app/"
                 className="button button--flex button--small portfolio__button"
               >
                 Demo
@@ -161,8 +183,9 @@ const Portfolio = () => {
             </div>
           </SwiperSlide>
 
+
           {/* <!--==================== PROJECT 5====================--> */}
-          <SwiperSlide className="portfolio__content grid">
+          {/* <SwiperSlide className="portfolio__content grid">
             <img
               src="/assets/img/portfolio1.jpg"
               alt=""
@@ -173,7 +196,6 @@ const Portfolio = () => {
               <h3 className="portfolio__title">
                 Email and JWT Session Validation
               </h3>
-              {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
                 to="https://amicoding-parina.web.app/"
@@ -183,7 +205,7 @@ const Portfolio = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="button__icon"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path></svg>
               </Link>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* <!--==================== PROJECT 6====================--> */}
           
