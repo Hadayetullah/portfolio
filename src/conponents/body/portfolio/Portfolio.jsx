@@ -54,17 +54,38 @@ const Portfolio = () => {
           {/* <!--==================== PROJECT 1====================--> */}
           <SwiperSlide className="portfolio__content grid">
             <img
+              src="/assets/img/portfolio1.jpg"
+              alt=""
+              className="portfolio__img"
+            />
+
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">Single Page Portfolio</h3>
+              {/* <!-- <p className="portfolio__description"></p> --> */}
+              <Link
+                target="_blank"
+                to="https://hadayetullah-portfolio.vercel.app/"
+                className="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="button__icon"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path></svg>
+              </Link>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="portfolio__content grid">
+            <img
               src="/assets/img/portfolio2.jpg"
               alt=""
               className="portfolio__img"
             />
 
             <div className="portfolio__data">
-              <h3 className="portfolio__title">Multi-Vendor Website</h3>
+              <h3 className="portfolio__title">POS Application</h3>
               {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
-                to="https://service-point-rust.vercel.app/"
+                to="https://simple-pos-application.vercel.app/"
                 className="button button--flex button--small portfolio__button"
               >
                 Demo
@@ -81,11 +102,11 @@ const Portfolio = () => {
             />
 
             <div className="portfolio__data">
-              <h3 className="portfolio__title">POS Application</h3>
+              <h3 className="portfolio__title">Multi-Vendor Website</h3>
               {/* <!-- <p className="portfolio__description"></p> --> */}
               <Link
                 target="_blank"
-                to="https://simple-pos-application.vercel.app/"
+                to="https://service-point-rust.vercel.app/"
                 className="button button--flex button--small portfolio__button"
               >
                 Demo
